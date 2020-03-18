@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.my-slider div {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.img-div {
+  position: relative;
+}
+
+.author-div {
+  position: absolute;
+  color: white;
+  padding-top: 10vh;
+  padding-left: 5vh;
+  font-family: fantasy;
+  user-select: none;
+}
+
+#vertical div {
+  width: 100vw;
+  height: 15vh;
+  position: relative;
+  user-select: none;
+  font-family: sans-serif;
+}
+
+.tns-item:nth-child(odd) {
+  background: Cornsilk;
+}
+
+.tns-item:nth-child(even) {
+  background: AliceBlue;
+}
